@@ -1,0 +1,40 @@
+*
+{
+margin: 0%;
+padding: 0%;
+}
+body
+{
+    background-image: url(6.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+p
+{
+color: #FFFF;
+size: 30px;
+font-family: monospace;
+font-size: 44px;
+
+}
+#container
+{
+box-shadow: 10px 20px rgb(0, 0, 0);
+background-color:transparent;
+border: 5px solid ;
+padding-top: 300px;
+width: 700px;
+padding-left: 400px;
+
+text-align: center;
+}
+#btn
+{
+margin:25px ;
+}
+#input
+{
+width: 100px;
+margin: 25px auto 5px;
+}
