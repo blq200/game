@@ -6,7 +6,11 @@ var nbr=10;
 console.log(number);
 btn.addEventListener('click', function(){
     let input = document.getElementById('userInput').value;
-    if (input == number){
+        if(nbr==0)
+    {
+        output.innerHTML = "game over";
+    }  
+   else if (input == number){
         if(nbr==10 || nbr ==9)
         {
             output.innerHTML = 'You are smart!';
@@ -26,11 +30,5 @@ btn.addEventListener('click', function(){
         output.innerHTML = "You guessed too high!"
         nbr--;
         tentatives.innerHTML=nbr;
-    } 
-    if(nbr==0)
-    {
-        output.innerHTML = "game over";
-        nbr--;
-        document.location.reload();
-    }   
+    }  
 });
